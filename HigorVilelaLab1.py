@@ -37,7 +37,7 @@ def erro_pg(q,n,a):
 
 """ calculo aplicado"""
 
-def taxa_garçon(x):
+def taxa_garcon(x):
     """ Essa função retorna o valor da gorgeta de 15% do garçom sobre o valor gasto()"""
     return x*(0.15)
 
@@ -51,7 +51,7 @@ def saldo_final(x,y,z):
     return x*(1+(y*z))
 
 def arrasta_barco(lr,vb,vc):
-    """ onde temos respectivamente ( largura do rio, velocidade do barco perpendicular a corenteza, velocidade correnteza)"""
+    """ onde temos respectivamente ( largura do rio, velocidade do barco perpendicular a correnteza, velocidade correnteza)"""
     return (lr/vb)*vc 
 
 
